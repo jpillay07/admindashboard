@@ -83,6 +83,7 @@ hr.dashed {
   .search-bar-container{
     display: flex;
     align-items: center;
+    margin-bottom: 50px;;
   }
 
   .material-symbols-outlined.search{
@@ -102,7 +103,7 @@ hr.dashed {
   .dash-header{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px 50px 20px 50px;
   }
 
   .small-pro-pic{
@@ -131,3 +132,120 @@ hr.dashed {
     padding-right: 50px;
     width: 40%;
   }
+
+  .big-pro-pic{
+    width: 100px;
+    height: 100px;
+  }
+
+  .dash-name{
+    display: flex;
+    padding: 0px 50px 10px 50px;
+    height: fit-content;
+  }
+
+  .dash-name-left{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    flex: 1 1 50%;
+  }
+
+  .left-name-section{
+    padding-left: 15px;
+  }
+
+  .greeting{
+    font-weight: bold;
+  }
+
+  .large-user-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .dash-name-right{
+    display: flex;
+    justify-self: end;
+    flex: 1 1 50%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .dash-button{
+    background-color: #1e2e3f;
+    color: white;
+    margin-left: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    padding: 7px 20px 7px 20px;
+    border-color: none;
+  }
+
+  .main-cards-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #ededed;
+  }
+
+  .projects-title{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 40px;
+    grid-column: 1 / 2;
+    
+  }
+
+  .projects-card{
+    background-color: white;
+    border-radius: 20px;
+    border-left: 5px solid #1e2e3f;
+    box-shadow: #dedede 4px 4px 5px;
+  }
+
+.card-title{
+    padding: 20px 0px 10px 20px;
+}
+
+.card-text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+  .material-symbols-outlined.card{
+    color: #1e2e3f;
+  }
+
+  .card-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+.cards-grid-container{
+    grid-column: 1 / 2;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right-sidebar{
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.announcements-title{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 40px;
+}
